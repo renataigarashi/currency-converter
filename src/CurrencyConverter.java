@@ -11,15 +11,15 @@ public class CurrencyConverter {
 
         URI apiAddress = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + currencyBase + "/" + currencyTarget + "/" + amount);
 
-        HttpRequest request = HttpRequest.newBuilder().uri(apiAddress).build();
 
         try{
             HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder().uri(apiAddress).build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
             return new Gson().fromJson(response.body(), CurrencyResult.class);
         } catch(Exception e) {
-            throw new RuntimeException("Conversão invalida!");
+            throw new RuntimeException("Invalid Conversion!");
         }
 
     }

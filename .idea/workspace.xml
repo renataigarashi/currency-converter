@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90053416-2db7-479f-873d-beed5927d54a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversor-de-moedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="90053416-2db7-479f-873d-beed5927d54a" name="Changes" comment="feat: create currency converter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyFormatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,19 @@
       <option name="presentableId" value="Default" />
       <updated>1714071002280</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: create currency converter">
+      <option name="closed" value="true" />
+      <created>1714072841705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714072841705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create currency converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create currency converter" />
   </component>
 </project>
